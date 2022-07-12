@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hungerman/static/css/main.da1c92bd.css",
+    "main.js": "/hungerman/static/js/main.75b5df3d.js",
+    "index.html": "/hungerman/index.html",
+    "main.da1c92bd.css.map": "/hungerman/static/css/main.da1c92bd.css.map",
+    "main.75b5df3d.js.map": "/hungerman/static/js/main.75b5df3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da1c92bd.css",
+    "static/js/main.75b5df3d.js"
+  ]
+}
