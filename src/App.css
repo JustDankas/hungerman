@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.word{
+  display: flex;
+  font-size: 5em;
+}
+.word .cell{
+  margin: 0 .1em;
+  width: .6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+.letters{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+.letters .letter{
+  font-size: 3.5em;
+  margin: .2em;
+  width: .9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10%;
+  background-color: rgb(182, 193, 218);
+}
+.letters .picked{
+  background-color: #b13cd5;
+}
+.hidden{
+  color: transparent;
+}
+.lives{
+  color: #f14e95;
+  display: flex;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+.lives .heart{
+  margin: 0 .5rem;
+}
+
+.gameBtn{
+  background-color: #442a9d;
   color: white;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  font-size: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  padding: .4rem;
 }
-
-.App-link {
-  color: #61dafb;
+input{
+  font-size: 2em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ok-btn{
+  font-size: 2rem;
+  margin-left: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+  color: #fff;
+  cursor: pointer;
+  background-color: #b13cd5;
 }
