@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hungerman/static/css/main.da1c92bd.css",
-    "main.js": "/hungerman/static/js/main.75b5df3d.js",
+    "main.css": "/hungerman/static/css/main.d5f8b033.css",
+    "main.js": "/hungerman/static/js/main.03f74ae2.js",
     "index.html": "/hungerman/index.html",
-    "main.da1c92bd.css.map": "/hungerman/static/css/main.da1c92bd.css.map",
-    "main.75b5df3d.js.map": "/hungerman/static/js/main.75b5df3d.js.map"
+    "main.d5f8b033.css.map": "/hungerman/static/css/main.d5f8b033.css.map",
+    "main.03f74ae2.js.map": "/hungerman/static/js/main.03f74ae2.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1c92bd.css",
-    "static/js/main.75b5df3d.js"
+    "static/css/main.d5f8b033.css",
+    "static/js/main.03f74ae2.js"
   ]
 }
